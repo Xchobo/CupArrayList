@@ -32,12 +32,12 @@
     //--- water cup ---------
     //total：
 //    waterTotal = 5472; //假設用的變數
-    if ( waterView == nil ) {
-        
-    }else{
+    if ( !(waterView == nil) ) {
         [waterView removeFromSuperview];
         waterView =nil;
     }
+    
+    // 建立放置所有水杯的 UIView
     waterView = [[UIView alloc] initWithFrame:CGRectMake(20, 190, 280, 340)];
     [waterView setBackgroundColor:[UIColor colorWithRed:0.910 green:0.891 blue:0.518 alpha:0.4]];
     [self.view addSubview:waterView];
@@ -50,8 +50,9 @@
     //計算列數
     int waterTotalcupRow = (waterTotalcup-1) /4 + 1;
     
+    //先移除所有 waterView 中的子物件
     [[waterView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    //    [waterView removeFromSuperview];
+
     // 建立杯子
     for (i=0; i<waterTotalcupRow; i++) {
         for (j=0; j<4; j++) {
