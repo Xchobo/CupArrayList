@@ -21,6 +21,7 @@
 		404E9F7718E2CE5400F060F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E9F5918E2CE5400F060F3 /* UIKit.framework */; };
 		404E9F7F18E2CE5400F060F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 404E9F7D18E2CE5400F060F3 /* InfoPlist.strings */; };
 		404E9F8118E2CE5400F060F3 /* CupArrayListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 404E9F8018E2CE5400F060F3 /* CupArrayListTests.m */; };
+		404E9F8B18E2D16100F060F3 /* cap.png in Resources */ = {isa = PBXBuildFile; fileRef = 404E9F8A18E2D16100F060F3 /* cap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		404E9F7C18E2CE5400F060F3 /* CupArrayListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CupArrayListTests-Info.plist"; sourceTree = "<group>"; };
 		404E9F7E18E2CE5400F060F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		404E9F8018E2CE5400F060F3 /* CupArrayListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CupArrayListTests.m; sourceTree = "<group>"; };
+		404E9F8A18E2D16100F060F3 /* cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cap.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		404E9F5B18E2CE5400F060F3 /* CupArrayList */ = {
 			isa = PBXGroup;
 			children = (
+				404E9F8A18E2D16100F060F3 /* cap.png */,
 				404E9F6418E2CE5400F060F3 /* AppDelegate.h */,
 				404E9F6518E2CE5400F060F3 /* AppDelegate.m */,
 				404E9F6718E2CE5400F060F3 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			files = (
 				404E9F6E18E2CE5400F060F3 /* Images.xcassets in Resources */,
 				404E9F6018E2CE5400F060F3 /* InfoPlist.strings in Resources */,
+				404E9F8B18E2D16100F060F3 /* cap.png in Resources */,
 				404E9F6918E2CE5400F060F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
